@@ -1,0 +1,434 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif !important;
+
+
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+a, a:hover{
+    text-decoration: none  ;
+}
+/* **********************header & banner start*********************** */
+.header{
+    width: 100%;
+    background: #F0FFF0;
+    
+}
+.menu{
+    width:100%;
+
+}
+.menu .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    margin: 0px 0px 0px 30px;
+
+
+}
+.menu .navbar-nav .nav-item .nav-link:hover, .menu .navbar-nav .nav-item .nav-link:focus{
+    color: #21B573;
+    
+}
+.menu .navbar-nav .nav-item .btn-success{
+    padding: 10px 25px;
+    margin: 0px 0px 0px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #21B573;
+    transition: .6s;
+    border: 1px solid #21B573;
+   
+}
+.menu .navbar-nav .nav-item .btn-success:hover, .menu .navbar-nav .nav-item .btn-success:focus{
+    border: 1px solid #21B573;
+    color: #21B573; 
+    background: transparent;
+}
+/* *****************banner****************** */
+
+
+.banner{
+    width: 100%;
+    padding: 70px 0px;
+}
+.inner-banner{
+    width: 100%;
+    padding: 70px 50px 0px;
+
+}
+.inner-banner h4{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #FD511A;
+
+    
+}
+.inner-banner h1{
+    font-size: 52px;
+    line-height: 62x;
+    font-weight: 700;
+    color: #000;
+   
+}
+
+.inner-banner h1 span{
+    color: #21B573;
+}
+.inner-banner p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #000;
+    margin: 0px 0px 30px;
+        
+}
+
+.inner-banner .btn-success{
+    padding: 10px 25px;  
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #21B573;
+    transition: .6s;
+    border: 1px solid #000;
+   
+}
+.inner-banner .btn-success:hover{
+    background: transparent;
+    border: 1px solid #21B573; 
+    color: #21B573;
+
+}
+
+/********************* header & banner end**************** */
+/********************* feature start**************** */
+.feature{
+    width: 100%;
+    padding: 60px 0px;
+}
+.feature .inner-feature{
+    width: 100%;
+    padding: 40px;
+    background: #F8FFFB;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.feature .inner-feature img{
+    width: 70px;
+    height: 85px;
+    margin: 0px 0px 20px;   
+
+}
+.feature .inner-feature h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin: 0px ;
+}
+
+.feature .inner-feature p{
+    font-size: 16px;
+    font-weight: 500;
+    color:  #585859;
+    
+
+}
+.feature .inner-feature:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+
+
+}
+/********************* feature end**************** */
+
+/********************* online-section start**************** */
+
+.online-section{
+    width: 100%;
+    padding: 0px 0px;
+}
+.online-section h1{
+    font-size: 45px;
+    line-height: 55x;
+    font-weight: 700;
+    color:#413960;
+
+    margin: 20px 0px 80px;
+    text-align: center;
+
+}
+.online-section .card{
+    padding: 20px 20px 10px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+
+}
+
+.online-section .card .card-body .card-title{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400px;
+    color: #413960;
+
+
+}
+.online-section .card .card-body .card-text{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400px;
+    color: #585859;
+    ;
+
+
+}
+.online-section .card .card-body .btn-primary{
+    padding: 8px 35px;
+    border-radius: 35px;
+    background: #21B573;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin:0px 0px 20px ;
+    border:1px solid #21B573 ;
+    text-transform: capitalize;
+
+}
+.online-section .card .card-body .btn-primary:hover{
+    color:#21B573;
+    background: transparent;
+    border:1px solid #21B573 ;
+
+
+
+}
+
+.online-section .icon-text{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #585859;
+    margin:0px;
+
+}
+
+.online-section .icon-text .icons{
+    width: 20px;
+    margin-top: -5px;
+    margin-right: 5px;
+
+
+}
+/* ***********online-section end ***************/
+/********** testmonial-section start here************/
+.testmonial{
+    width: 100%;
+    padding: 80px 0px;
+}
+.testmonial h1{
+    font-size: 44px;
+    line-height: 54x;
+    font-weight: 700;
+    color:#000;
+    margin: 20px 0px 60px;
+    text-align: center;
+
+}
+.testmonial img{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    padding: 10px;
+  
+
+}
+.testmonial p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #000;
+    margin: 0px 0px 0px 30px;   
+    padding: 20px 0px;
+}
+/********** testmonial-section end here************/
+/********** footer-section end here************/
+.footer{
+    width: 100%;
+    height: 600px;
+    background: #282531;
+    color: #ffff;
+    height: 300px;
+    padding: 40px 0px;
+   
+
+}
+.footer h5{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    padding:  20px 0px 0px;
+    margin-left: 40px;
+}
+.footer p{
+    font-size: 16px;
+    line-height: 26px;
+   margin-top: 30px;
+
+}
+
+.footer  li{
+list-style-type: none;
+font-size: 15px;
+line-height: 25px;
+text-align:justify;
+margin-left: 40px;
+
+
+
+}
+.footer .footer-bottom{
+    text-align: center;
+    margin:40px 0px 20px;
+    font-size: 18px;
+    color:#CDCDCD;
+    
+}
+/********** footer-section end here************/
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+/* .online-section{
+    width: 100%;
+    padding: 50px 0px;
+}
+.online-section h1{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 0px 60px;
+    color: #413960;
+
+}
+.online-section .text-icons{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color:#585859;
+    margin: 0px;
+    
+
+}
+.online-section .text-icons .icons{
+    width: 15px;
+}
+ */
+
+
+
+
+/********************* online-section end**************** */
+/********************* textimonial-section start**************** */
+/* .textimonial-section{
+    width: 100%;
+    padding: 50px 0px;
+}
+.textimonial-section h1{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 0px 60px;
+    color: #000000;
+
+
+}
+.textimonial-section img{
+    
+    width: px;
+    height: 85px;
+    margin: 0px 0px 20px;   
+
+}
+.textimonial-section p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #000;
+    margin: 0px 0px 50px;
+
+
+}
+ */
+
+/********************* textimonial-section end**************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************* Online end**************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
